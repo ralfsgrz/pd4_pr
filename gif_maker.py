@@ -8,6 +8,9 @@ def gifMaker(inputPath,targetFormat):
 
    print(f"converting {inputPath} \n to {outputPath}")
 
+   #veicu izmainas
+   #ierakstu jaunu rindu
+
    reader = imageio.get_reader(inputPath)
    fps = reader.get_meta_data()["fps"]
 
